@@ -1,48 +1,32 @@
-.index{
-    overflow: hidden;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-}
-.index-bg{
-    z-index: -1;
-    width: 100%;
+html,
+body,
+#app{
     height: 100%;
-    /*object-fit:cover;*/
-    position: absolute;
-}
-.index-card-group{
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    padding-top: 20%;
-    /*position: relative;*/
-}
-.index-card{
-    /*display: inline;*/
-    background-color: #f6f6f6;
-    width: 60%;
-    margin: auto;
-    padding: 20px 20px 20px 20px;
-    border-radius: 15px;
-    position: relative;
+    /*background-color: rgb(40,40,40);*/
 }
 
-.index-card-title{
-    display: inline;
-    position: absolute;
-    top: 40%;
-    margin-left: 20px;
-    font-size: 30px;
+.index{
+    height: 100%;
 }
 
-.index-headbar{
-    position: relative;
-    width: 100%;
-    color: #f6f6f6;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    background-color: #1a66ff;
-    padding: 5px 0 8px 0;
+.index-left{
+    /*border-width: 1px;*/
+    /*border-top: black;*/
+    /*border-style: solid;*/
+    height: 100%;
+    /*color: white;*/
+}
+
+.index-center{
+    border-width: 1px;
+    border-top: black;
+    border-style: solid;
+    height: 100%;
+}
+
+.index-right{
+    border-width: 1px;
+    border-top: black;
+    border-style: solid;
+    height: 100%;
 }
