@@ -15,6 +15,7 @@ body,
     /*border-style: solid;*/
     height: 100%;
     /*color: white;*/
+    position: relative;
 }
 
 .index-center{
