@@ -27,7 +27,12 @@ const store = new Vuex.Store({
         value: 70,
         color:'rgb(103,194,58)'
       }
-    ]
+    ],
+    time:{
+      year:0,
+      month:0,
+      week:0
+    }
   },
   mutations: {
 
